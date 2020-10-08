@@ -1,0 +1,1 @@
+[2020-10-8 12:45:22] layer "Opiekun rozpoczyna okres próbny  i jeśli jesteście zadowoleni, ": Expected end of input but "," found.
