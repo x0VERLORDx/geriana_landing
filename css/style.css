@@ -107,6 +107,14 @@ button:hover {
       font-size: 8px;
    }
 }
+@media screen and (max-width:425px) {
+   .logo {
+      width: 80px
+   }
+   button {
+      font-size: 6px;
+   }
+}
 /*head*/
 .bg {
    max-width: 1440px;
@@ -579,6 +587,7 @@ mark {
       margin-left: 0px;
    }
    .instructions h1 {
+      font-size: 30px;
       text-align: center;
       display: block;
       margin-left: auto;
@@ -680,11 +689,19 @@ mark {
    .body5 p {
       text-align: left;
    }
+   .body5 h1 {
+      font-size: 40px;
+   }
    .body5 p, img {
       margin-left: 0px;
    }
    .body5 img {
       margin-left: 0px;
+   }
+}
+@media screen and (max-width:492px) {
+   .body5 img {
+      display: none;
    }
 }
 .call {
@@ -757,6 +774,25 @@ footer .right {
    footer h3{
       text-align: center;
    }
+   
    .container-fluid .follow {
       text-align: left;
+}
+@media screen and (max-width:570px) {
+   footer .logo {
+      height: 40px;
+      width: 150px;
+   }
+   .container-fluid .follow {
+      text-align: center;
+   }
+   footer h3{
+      font-size: 18px;
+   }
+   footer .right {
+   margin-right: 0px;
+      }
+   .FB-icon, .TW-icon, .in-icon {
+      display: none;
+   }
 }
